@@ -57,3 +57,38 @@
 
 // Console.WriteLine("rätt");
 // Console.ReadLine();
+
+
+//6
+// string a = Console.ReadLine();
+// int b = 0; 
+// int.TryParse(a, out b);
+// int x = b*2;
+// Console.WriteLine(x);
+// Console.ReadLine();
+
+//7
+string a = Console.ReadLine();
+int b = 0; 
+bool success = int.TryParse(a, out b);
+if (success == true)
+{
+int x = b*2;
+Console.WriteLine(x);
+Console.ReadLine();
+}
+
+if (success == false)
+{
+    Console.WriteLine("Det är inte en siffra!");
+}
+Console.ReadLine();
+  
+
+
+//8
+
+
+//9
+
+//10
